@@ -1,40 +1,33 @@
 header {
-    box-sizing: border-box;
-}
-
-.mySlides {
-    display: flex;
+    background-image: url(src/01.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+    background-position: fill;
     width: 100%;
-    height: 300px;
-    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+.hdiv2-1 {
+    width: 50%;
+    float: left;
 }
 
-.dot {
-    height: 5px;
-    width: 5px;
-    margin: 0 1px;
+.hdiv2-2 {
+    width: 50%;
+    float: left;
+}
+
+.hdivimg {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    border: 2px groove #116788;
+    border-radius: 5px;
+}
+
+body {
     background-color: aquamarine;
-    border-radius: 10%;
-    display: inline-block;
-    transition: background-color 5s ease-in-out;
 }
 
-.active {
-    background-color: aquamarine;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 5s;
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1;}
-}

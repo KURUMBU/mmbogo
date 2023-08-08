@@ -2,83 +2,96 @@
 
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>mmbogo</title>
     </head>
     <header>
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <img scr="src/01.jpg" style="width: 100%">
+        <div>
+            <button>Socials</button>
+            <button>Gallery</button>
+            <button>About</button>
+        </div>
+        <div>
+            <div class="hdiv2-1">
+                <h1>MMBOGO</h1>
+            <p>
+                My name is Marcus Mbogo. A free and happy soul!
+            </p>
             </div>
-
-            <div class="mySlides fade">
-                <img src="src/02.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="src/03.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="src/04.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="src/05.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="src/06.jpg" style="width:100%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="src/07.jpg" style="width:100%">
+            <div class="hdiv2-2">
+                <img class="hdivimg" src="src/02.jpg" alt="Mmbogo">
             </div>
         </div>
-        <button class="btn0">Socials</button>
-        <button class="btn0">About</button>
-        <div class="intro">
-            <h1>MMBOGO</h1>
-            <p>My name is Marcus Mbogo....</p>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-    <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlide() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.lenght; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}
-            for (i = 0;  i < dot.length; i++) {
-                dot[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 2000)
-        }
-    </script>    
-
+        
     </header>
     <body>
-
+        <div>
+            <div>
+                <img>
+                <div>
+                    <h3>P</h3>
+                    <p>p</p>
+                </div>
+                <img>
+            </div>
+            <div>
+                <img>
+                <img>
+                <img>
+            </div>
+            <div>
+                <div>
+                    <h3>P</h3>
+                    <p>p</p>
+                </div>
+                <img>
+                <div>
+                    <h3>P</h3>
+                    <p>p</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>P</h2>
+                <p>p</p>
+            </div>
+            <div>
+                <button>ig</button>
+                <button>tiktok</button>
+                <button>X</button>
+                <button>pinterest</button>
+            </div>
+        </div>
     </body>
+    <footer>
+        <div>
+            <button>Email</button>
+            <button>Subscribe</button>
+        </div>
+        <div>
+            <div>
+                <h3>Connect</h3>
+                <p>Marcus Mbogo,</p>
+                <p>marcusmbogo101@gmail.com,</p>
+                <p>Nairobi, Kenya.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p>Home</p>
+                <p>Gallery</p>
+                <p>Socials</p>
+            </div>
+            <div>
+                <h3>Find Me</h3>
+                <p>Instagram</p>
+                <p>Tiktok</p>
+                <p>Twitter</p>
+                <p>Pinterest</p>
+            </div>
+        </div>
+    </footer>
 
 </html>
