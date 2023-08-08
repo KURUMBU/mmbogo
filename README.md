@@ -1,14 +1,10 @@
-# mmbogo
-#Photographic Website
 
 
-#MMBOGO
-#Photographic Website
 
 
-# {Application Name}
-#### {Brief description of application}, {August 2023}
-#### By **{List of contributors}**
+# {MMBOGO😝}
+#### {This is a Photographic Website}, {August 2023}
+#### By **{Roy Kimari Kurumbu}**
 
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
