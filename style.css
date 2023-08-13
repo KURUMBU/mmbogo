@@ -86,3 +86,15 @@ body {
 form {
     justify-content: center;
 }
+
+input {
+    display: block;
+    height: 50px;
+    width: auto;
+    border-radius: 5%;
+    padding: 0;
+}
+
+.sub {
+    border: #116788;
+}
