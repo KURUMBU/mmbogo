@@ -20,11 +20,11 @@ HTML
 CSS
 
 ## Support and contact details
-kimariroy@gmail.com
-Twitter: _kurumbu_
+kimariroy@gmail.com | 
+Twitter: _kurumbu_ | 
 Instagram: _ku.ru.mbu_
 
-### License
+## License
 I have no license for this software.
 
-Copyright (c) {year} **{Roy Kimari Kurumbu}**
+Copyright (c) {2023} **{Roy Kimari Kurumbu}**
